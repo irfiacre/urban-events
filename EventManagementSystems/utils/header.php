@@ -81,11 +81,9 @@
     <div class = "col-md-12">
         <div class = "container">
             <div class = "jumbotron"><!--jumbotron-->
-                <h1>Urban Events Venues & Catering</h1><!--jumbotron heading-->
+                <h1>Urban Events</h1><!--jumbotron heading-->
                 <p><!--jumbotron content-->
-                Whether you're looking to book a cocktail party, post-work gathering, celebratory function, conference, business
-                meeting, wedding or private dining event, our dedicated Urban Events team can create a package that will meet
-                your every need.
+                The place to get the trending events happening around You.
                 </p>
                 <p id="dateAndTime"></p>
             </div>

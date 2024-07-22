@@ -5,7 +5,7 @@ body {
 
 /*background image style for header*/
 .bgImage {
-    background-image: url(../images/bgImage1.jpg);
+    background-image: url(../images/traditional_dance.jpg);
     background-size: cover;
     background-position: center center;
     height: 600px;
@@ -74,9 +74,9 @@ header .navbar-nav a:hover:before {
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
-    //background-color: transparent;
-    //color: #bdc3c7;
-    //border-bottom: 3px solid #ecf0f1;
+    background-color: transparent;
+    color: #bdc3c7;
+    border-bottom: 3px solid #ecf0f1;
 }
 
 header .navbar-nav .btnlogout a:hover:before {
