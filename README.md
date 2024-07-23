@@ -1,5 +1,5 @@
-# 2nd Year Project
-# Event Management Systems
+# Summer Web design class final Project
+# Event Management System
 
 <p>
 This project is a web app for organizing events. Built with PHP, MySQL, HTML, and CSS using Bootstrap Framework.
@@ -10,3 +10,4 @@ To fully run this program, you will need to run it in a local host.
 <li>Import 'year2project.sql' in PHPMyAdmin</li>
 <li>Run in your browser using a local host e.g. 'localhost/path/index.php'
 </ul>
+
