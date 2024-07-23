@@ -50,7 +50,6 @@ start_session();
                         <?php
                         $row = $statement->fetch(PDO::FETCH_ASSOC);
                         while ($row) {
-
                             echo '
                             <div class="row">
                             <section>
