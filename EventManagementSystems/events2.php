@@ -14,7 +14,6 @@
                     <h1>What's On</h1><!--body content title-->
                 </div>
             </div>
-			
             <div class="container">
             <div class="col-md-12">
             <hr>
