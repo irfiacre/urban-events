@@ -58,24 +58,19 @@ start_session();
                                     <img src="images/bdayevent.jpg" class="img-responsive" />
                                 </div> ';
                             echo'<div class="subcontent col-md-6">';
-                                echo '<div class="date">
-                                <span class="month">'. $row['StartDate'] . ' - till - '. $row['EndDate'] .'</span><br>
-                                <hr class="line"> 
-                                </div>';
-                                echo '<h1 class="title">' . $row['Title'] . '</h1> ';
-                                echo '<p class="definition">' . $row['Description'] . '</p> ';
-                                echo '<p class="location">' . $row['name'] . ' (Price: $'. $row['Cost'] .')' . '</p> ';
-                                echo '<button type="button" class="btn btn-default btn-lg"><!--view details button (no function implemented)-->
-                            View Details  <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><!--arrow right glyphicon-->
-                            </button>';
-                            echo'
-                            </div>  </section></div>
-             <div class="container">
-            <div class="col-md-12">
-            <hr>
-            </div>
-            </div>
-                            ';
+                            echo '<div class="date">
+                            <span class="month">'. $row['StartDate'] . ' - till - '. $row['EndDate'] .'</span><br>
+                            <hr class="line"> 
+                            </div>';
+                            echo '<h1 class="title">' . $row['Title'] . '</h1> ';
+                            echo '<p class="definition">' . $row['Description'] . '</p> ';
+                            echo '<p class="location">' . $row['name'] . ' (Price: $'. $row['Cost'] .')' . '</p> ';
+                            echo '<button type="button" class="btn btn-default btn-lg">'
+                            .'<a href="viewPublicEvent.php?id='.$row['EventID'].'">View</a>  <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>'
+                            .'</button>';
+                            echo'</div></section></div>
+                            <div class="container"><div class="col-md-12">
+                            <hr></div></div>';
 
                             $row = $statement->fetch(PDO::FETCH_ASSOC);
                         }

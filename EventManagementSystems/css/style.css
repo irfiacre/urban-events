@@ -11,6 +11,14 @@ body {
     height: 600px;
     margin-bottom: 29px;
 }
+.eventBgImage {
+    /* background-image: url(../images/bdayevent.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+    margin-bottom: 29px; */
+    background-color: #001825;
+}
 
 /*global horizontal line style*/
 hr {

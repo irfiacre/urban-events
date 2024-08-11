@@ -52,15 +52,15 @@ if (!$row) {
                     <tbody><!--table contents, pulled from database-->
                         <?php
                         echo '<tr>';
-                        echo '<td>' . $row['eventID'] . '</td>';
+                        echo '<td>' . $row['EventID'] . '</td>';
                         echo '<td>' . $row['Title'] . '</td>';
                         echo '<td>' . $row['Description'] . '</td>';                    
                         echo '<td>' . $row['StartDate'] . '</td>';
                         echo '<td>' . $row['EndDate'] . '</td>';
                         echo '<td>' . $row['Cost'] . '</td>';
-                        echo '<td>' . $row['locationID'] . '</td>';
+                        echo '<td>' . $row['LocationID'] . '</td>';
                         echo '<td>'
-                        . '<a class="delete" href="deleteEvent.php?id='.$row['eventID'].'">Delete</a> '
+                        . '<a class="delete" href="deleteEvent.php?id='.$row['EventID'].'">Delete</a> '
                         . '</td>';
                         echo '</tr>';  
                         ?>

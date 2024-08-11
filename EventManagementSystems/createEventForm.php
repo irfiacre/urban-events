@@ -50,7 +50,7 @@ if (!isset($errors)) {
                     <div class="form-group">
                         <label for="Description" class="col-md-2 control-label">Description</label><!--event description-->
                         <div class="col-md-5">
-                            <input type="text" class="form-control" id="Description" name="Description" value="<?php echoValue($formdata, "Description")?>" /><!--input-->
+                            <textarea id="Description" rows="3" class="form-control" name="Description" value="<?php echoValue($formdata, "Description")?>" ></textarea>
                         </div>
                         <div class="col-md-4">
                             <span id="DescriptionError" class="error"><!--error message for invalid input-->
