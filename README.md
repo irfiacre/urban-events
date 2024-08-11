@@ -11,3 +11,10 @@ To fully run this program, you will need to run it in a local host.
 <li>Run in your browser using a local host e.g. 'localhost/path/index.php'
 </ul>
 
+## Test Users:
+
+| Email   |      Password      |  Role |
+|----------|:-------------:|------:|
+| joe@bloggs.com  |  secret | admin |
+| mary@bloggs.com |  secret  |   staff |
+| fred@bloggs.com | secret |   user |
