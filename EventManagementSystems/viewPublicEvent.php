@@ -42,10 +42,10 @@ if (!$row) {
                         echo '<br /><a class="btn btn-default" href="index.php"><span class="glyphicon glyphicon-circle-arrow-left"></span> Back</a>';
                         echo '<h1> Cost: <strong>' . $row['Cost'] .'</strong> RWF'. '</h1>';
                         echo '<p>' . $row['Description'] . '</p>';
-                        echo '<p> Location: ' . $row['LocationID'] . '</p>';
                         echo '<td>'
-                            . '<a href="viewLocation.php?id='.$row['LocationID'].'">'.'</a> '
+                            . '<a href="viewLocation.php?id='.$row['LocationID'].'">'.'Checkout Location'.'</a> '
                             . '</td>';
+                        
                         ?>
             </div>
             </div>

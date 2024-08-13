@@ -14,6 +14,7 @@
                 //links to database contents. *if logged in
                 if(is_logged_in()){
                     require_once 'utils/functions.php';
+                    echo '<li><a href = "#"><strong>'.$_SESSION['user']->getUsername().'</strong></a></li>';
                     echo '<li><a href = "index.php">Home</a></li>';
                     echo '<li><a href = "viewEvents.php">Events</a></li>';
                     echo '<li><a href = "viewLocations.php">Locations</a></li>';
